@@ -1,4 +1,9 @@
-# docker-meteor-example
+# docker-meteor-example with Deploy onto AWS 
+
+[Project Demo](http://ec2-54-234-89-147.compute-1.amazonaws.com/)
+
+## How to Dockerize it?
+
 Follow a great tutorial for Docker &amp; Meteor on [How to dockerize a Meteor 1.4+ app](https://medium.com/@isohaze/how-to-dockerize-a-meteor-1-4-app-120a34089ddb
 ).
 
@@ -48,3 +53,8 @@ CMD node /bundle/main.js
 docker build -t meteor/ecs .
 docker run -d -p 8080:80 -e ROOT_URL=http://example.com meteor/ecs
 ```
+## How to Deploy it? 
+Follow the tutorial [Deploying a MeteorJS app to ECS](http://krishamoud.me/deploying-meteor-to-aws-ecs/)
+
+## DONE! 
+:tada::tada::tada::tada:
